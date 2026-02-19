@@ -43,7 +43,6 @@ class Main {
 }
 
 
-
 class Main {
     public static void main(String[] args) {
         int a = 6;
@@ -90,11 +89,4 @@ class Main{
 */
 
 
-class Main {
-    public static void main(String[] args) {
-        int a = 6;
-        --a;
-        System.out.println(a);
-    }
 
-}
