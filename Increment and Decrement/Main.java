@@ -2,7 +2,7 @@
 
 // INCREMENTATION & DECREMENTATION
 
-//PRE INCREMENTATION
+//PRE INCREMENT
 
 class Main {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ class Main {
     }
 }
 
-// POST INCREMENTATION
+// POST INCREMENT
 
 class Main {
     public static void main(String[] args) {
@@ -22,7 +22,7 @@ class Main {
     }
 }
 
-//PRE DECREMENTATION
+//PRE DECREMENT
 
 class Main {
     public static void main(String[] args) {
@@ -32,7 +32,7 @@ class Main {
     }
 }
 
-//POST DECREMENTATION
+//POST DECREMENT
 
 class Main {
     public static void main(String[] args) {
@@ -96,4 +96,5 @@ class Main {
         --a;
         System.out.println(a);
     }
+
 }
