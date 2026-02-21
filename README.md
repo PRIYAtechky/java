@@ -24,8 +24,7 @@ The repository covers **core Java concepts** along with **simple Java projects**
 3. Verify installation by running:
    ```sh
    java --version
-
-
+   
 ## How to Run
 
 1. Open a terminal or command prompt.
