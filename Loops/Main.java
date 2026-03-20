@@ -71,5 +71,26 @@ class Main {
 }
 
 
+class Main {
+    public static void main(String[] args){
+        int i;
+        for(i=1; i<=10; --i){
+            System.out.println(i);//infinite loop
+        }
+    }
+}
+
+
+class Main {
+    public static void main(String[] args){
+        int i=0;
+        while(i<=4){
+            System.out.println("Hello");
+            i++;
+        }
+    }
+}
+
+
 
 */
