@@ -61,6 +61,14 @@ class Main {
 }
 
 
+class Main {
+    public static void main(String[] args){
+        int j;
+        for(j=0; j<=5;){
+            System.out.println(j); //infinite loop
+        }
+    }
+}
 
 
 
