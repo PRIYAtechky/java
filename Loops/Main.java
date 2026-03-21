@@ -24,6 +24,7 @@ for(initialization; condition; update){
 }
 
 ==> while loop
+
 initialization
 while(condition){
     // code
@@ -31,6 +32,7 @@ while(condition){
 }
 
 ==> do-while loop 
+
 initialization
 do{
     // code
