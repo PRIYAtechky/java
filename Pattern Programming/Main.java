@@ -163,6 +163,161 @@ output:
 
 
 
+class Main{
+    public static void main(String[] args) {
+        int i,j;
+        for(i=0;i<=5;i++){
+            for(j=i+1;j<5;j++){
+                 System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
+}
+output:
+1234
+234
+34
+4
+
+
+
+class Main{
+    public static void main(String[] args) {
+        int i,j;
+        for(i=0;i<5;i++){
+            for(j=i+1;j<=5+i;j++){
+                 System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
+}
+output:
+12345
+23456
+34567
+45678
+56789
+
+
+
+class Main{
+    public static void main(String[] args) {
+        int i,j;
+        int count;
+        for(i=0;i<5;i++){
+            count=i+1;
+            for(j=0;j<5;j++){
+                 System.out.print(count++);
+            }
+            System.out.println();
+        }
+    }
+}
+output:
+12345
+23456
+34567
+45678
+56789
+
+
+
+class Main{
+    public static void main(String[] args) {
+        int i,j;
+        for(i=1;i<=5;i++){
+            for(j=1;j<=i;j++){
+                 System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+output:
+*
+**
+***
+****
+*****
+
+
+
+class Main{
+    public static void main(String[] args) {
+        int i,j;
+        for(i=1;i<=5;i++){
+            for(j=1;j<=i;j++){
+                 System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
+}
+output:
+1
+12
+123
+1234
+12345
+
+
+
+class Main{
+    public static void main(String[] args) {
+        int i,j,k;
+        for(i=1;i<=5;i++){
+            for(j=1;j<=5-i;j++){
+                 System.out.print(" ");
+            }
+            for(k=1;k<=i;k++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+output:
+    *
+   **
+  ***
+ ****
+*****
+
+
+class Main{
+    public static void main(String[] args) {
+        int i,j,k;
+        for(i=1;i<=5;i++){
+            for(j=1;j<=5-i;j++){
+                 System.out.print(" ");
+            }
+            for(k=1;k<=i;k++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
+output:
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 */
