@@ -540,7 +540,7 @@ output:
 
 
 class Main{
-    public static void main(String [] arg){
+    public static void main(String [] args){
         for(int i=1; i<=5; i++){
             for(int j=1; j<=6-i; j++){
                 System.out.print(" ");
@@ -576,7 +576,7 @@ output:
 
 
 class Main{
-    public static void main(String [] arg){
+    public static void main(String [] args){
         for(int i=1; i<=5; i++){
             for(int j=1; j<=6-i; j++){
                 System.out.print(" ");
@@ -622,7 +622,7 @@ output:
 
 
 class Main{
-    public static void main(String [] arg){
+    public static void main(String [] args){
         for(int i=1; i<=5; i++){
             for(int k=1; k<=6-i; k++){
                 System.out.print("*");
@@ -650,7 +650,7 @@ output:
 
 
 class Main{
-    public static void main(String [] arg){
+    public static void main(String [] args){
         for(int i=1; i<=5; i++){
             for(int j=1; j<=6-i; j++){
                 System.out.print(" ");
@@ -686,6 +686,31 @@ output:
  *********
 
 
+
+class Main{
+    public static void main(String [] args){
+        int i, j, count;
+
+        for(i=1; i<=5; i++){
+            count=1;
+            for(j=1; j<=2*i-1; j++){
+                if(i>j){
+                System.out.print(count++);
+                }
+                else{
+                    System.out.print(count--);
+                }
+            }
+             System.out.println();
+        }
+    }
+}
+output:
+1
+121
+12321
+1234321
+123454321
 
 
 
