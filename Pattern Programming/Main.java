@@ -739,6 +739,110 @@ output:
 
 
 
+class Main {
+    public static void main(String[] args) {
+        int count;
+        for (int i = 1; i <= 5; i++) {
+            count = i * (i + 1) / 2;
+            for (int j = 1; j <= i; j++) {
+                System.out.print(count--);
+                if (j != i) // (i>j) (j!=1)
+                {
+                    System.out.print("*");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
+output:
+1
+3*2
+6*5*4
+10*9*8*7
+15*14*13*12*11
+
+class Main {
+    public static void main(String[] args) {
+        int c=65;
+        for(int i=1; i<=5; i++){
+            for(int j=1; j<=i;j++){
+                System.out.print((char)c);
+            }
+            c++;
+        System.out.println();
+        }
+    }
+}
+output:
+A
+BB
+CCC
+DDDD
+EEEEE
+
+
+
+
+class Main {
+    public static void main(String[] args) {
+        char c='A';
+        for(int i=1; i<=5; i++){
+            for(int j=1; j<=i;j++){
+                System.out.print(c);
+            }
+            c++;
+        System.out.println();
+        }
+    }
+}
+output:
+A
+BB
+CCC
+DDDD
+EEEEE
+
+
+class Main {
+    public static void main(String[] args) {
+        for(int i=1; i<=5; i++){
+            char c='A';
+            for(int j=1; j<=i;j++){
+                System.out.print(c++);
+            }
+        System.out.println();
+        }
+    }
+}
+output:
+A
+AB
+ABC
+ABCD
+ABCDE
+
+
+
+
+class Main {
+    public static void main(String[] args) {
+        char c='A';
+        for(int i=1; i<=5; i++){
+            for(int j=1; j<=i;j++){
+                System.out.print(c++);
+            }
+        System.out.println();
+        }
+    }
+}
+output:
+A
+BC
+DEF
+GHIJ
+KLMNO
+
 */
 
 
