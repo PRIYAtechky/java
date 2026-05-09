@@ -166,6 +166,48 @@ class Main {
 }
 
 
+class Dog {
+    String name;
+    String breed; 
+    int cost;
+
+    public static void main(String[] args){
+        Dog d = new Dog();  // Creating object of Dog class
+
+        System.out.println(d.name);  // Printing default value of String variable -> null
+        System.out.println(d.breed); // Printing default value of String variable -> null
+        System.out.println(d.cost);  // Printing default value of int variable -> 0
+    }
+}
+output:
+null
+null
+0
+
+
+
+class Dog {
+    String name="Scooby";
+    String breed="pug"; 
+    int cost=12000;
+
+    public static void main(String[] args){
+        Dog d = new Dog();  // Creating object of Dog class
+
+        System.out.println(d.name);  
+        System.out.println(d.breed); 
+        System.out.println(d.cost);  
+    }
+}
+output:
+Scooby
+pug
+12000
+
+
+
+
+
 */
 
 
