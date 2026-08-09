@@ -136,5 +136,52 @@ output:
 
 
 
+==>Vale Type
+class Main{
+    public static void main(String[] args) {
+        int x=100;
+        int y;
+        y=x;
+
+        System.out.println(x);
+        System.out.println(y);
+
+        x=200;
+        System.out.println(x);
+        System.out.println(y);
+    }
+}
+output:
+100
+100
+200
+100
+
+
+
+==>Reference Type
+class Car{
+    String name;
+    int cost;
+    public static void main(String[] args) {
+       Car x = new Car();
+       x.name="Maruthi";
+       x.cost=200000;
+        System.out.println(x.name);
+        System.out.println(x.cost);
+
+      Car y;
+      y=x;
+        System.out.println(y.name);
+        System.out.println(y.cost);
+    }
+}
+output:
+Maruthi
+200000
+Maruthi
+200000
+
+
 
 */
