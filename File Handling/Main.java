@@ -79,6 +79,47 @@ public class Main{
 }
 
 
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+public class Main{
+    public static void main(String[] args) {
+        File f = new File("D:\\user\\myfiles\\data.txt");
+        try{
+            FileWriter w = new FileWriter(f);
+            w.write("hello");
+            w.write("world !");
+            w.flush();
+        } catch(IOException e){
+            e.printStackTrace();
+        }
+    }
+}
+
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args) {
+        File f = new File("D:\\user\\myfiles\\data.txt");
+        Scanner sc = new Scanner(System.in);
+        try{
+            FileWriter w = new FileWriter(f);
+            String w1=sc.next();
+            String w2=sc.next();
+            w.write(w1);
+            w.write(w2);
+            w.flush();
+        } catch(IOException e){
+            e.printStackTrace();
+        }
+    }
+}
+
+
 */
 
 
