@@ -192,6 +192,50 @@ public class Main {
 }
 
 
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args) {
+       
+        char[] ch = new char[30];
+        FileReader r = null;
+        try{
+            r = new FileReader("D:\\user\\myfiles\\data.txt");
+            r.read(ch);
+            System.out.println(ch);
+        } catch(IOException e){
+            e.printStackTrace();
+        }
+    }
+}
+
+
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char[] ch = new char[30];
+        FileReader r = null;
+        try{
+            r = new FileReader("D:\\user\\myfiles\\data.txt");
+            int c=r.read();
+            while(c!=-1){
+            System.out.print((char)c);
+            c=r.read();
+            }
+        } catch(IOException e){
+            e.printStackTrace();
+        }
+        sc.close();
+    }
+}
+
+
+
 
 
 */
