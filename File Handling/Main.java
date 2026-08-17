@@ -120,6 +120,80 @@ public class Main{
 }
 
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args) {
+        File f = new File("D:\\user\\myfiles\\data.txt");
+        Scanner sc = new Scanner(System.in);
+        String s1 = sc.nextLine();
+        try{
+            FileWriter w = new FileWriter(f);
+            w.write(s1);
+            w.flush();
+        } catch(IOException e){
+            e.printStackTrace();
+        }
+    }
+}
+
+
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args) {
+       
+        Scanner sc = new Scanner(System.in);
+        String s1 = sc.nextLine();
+        FileWriter w = null;
+        try{
+            w = new FileWriter("D:\\user\\myfiles\\data.txt",true);
+            w.write(s1);
+            w.flush();
+            w.close();
+        } catch(IOException e){
+            e.printStackTrace();
+        }
+        sc.close();
+    }
+}
+
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter text: ");
+        String s1 = sc.nextLine();
+
+        try {
+            FileWriter w = new FileWriter("D:\\user\\myfiles\\data.txt", true);
+
+            w.write(s1);
+            w.write(System.lineSeparator());
+
+            w.close();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        sc.close();
+    }
+}
+
+
+
+
 */
 
 
