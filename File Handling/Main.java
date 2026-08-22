@@ -238,6 +238,62 @@ public class Main{
 
 
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+public class Main{
+    public static void main(String[] args) {
+       FileReader r = null;
+       BufferedReader br = null;
+       try{
+        r = new FileReader("D:\\user\\myfiles\\data.txt");
+        br = new BufferedReader(r);
+
+        String value = br.readLine();
+        while(value != null){
+            System.out.println(value);
+            value = br.readLine();
+        }
+       }
+        catch (Exception e) {
+        e.printStackTrace();
+       }
+    }
+}
+
+
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+public class Main{
+    public static void main(String[] args) {
+       FileReader r = null;
+       BufferedReader br = null;
+       int count=0;
+       try{
+        r = new FileReader("D:\\user\\myfiles\\data.txt");
+        br = new BufferedReader(r);
+
+        String value = br.readLine();
+        while(value != null){
+            count++;
+            value = br.readLine();
+        }
+        System.out.println(count);
+       }
+        catch (Exception e) {
+        e.printStackTrace();
+       }
+    }
+}
+
+
+
+
+
+
+
+
+
 */
 
 
