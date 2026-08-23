@@ -288,7 +288,30 @@ public class Main{
 
 
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+public class Main{
+    public static void main(String[] args) {
+       FileReader r = null;
+       BufferedReader br = null;
+       int size = 0;
+       int sum=0;
+       try{
+        r = new FileReader("D:\\user\\myfiles\\data.txt");
+        br = new BufferedReader(r);
 
+        String line = br.readLine();
+        while(line != null){
+            sum+=line.length();
+            line=br.readLine();
+        }
+        System.out.println(sum);
+       }
+        catch (Exception e) {
+        e.printStackTrace();
+       }
+    }
+}
 
 
 
