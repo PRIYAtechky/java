@@ -15,7 +15,7 @@ The repository covers **core Java concepts** along with **simple Java projects**
 | 1 | Java Basics |
 | 2 | Increment and Decrement |
 | 3 | Pattern Programming |
-| 4 | File Handling|
+| 4 | File Handling |
   
 ##  Installation
 
