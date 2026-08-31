@@ -194,7 +194,7 @@ public class Main {
 
 
 
-=>Program reads up to 30 characters from a file into a character array and prints them to the console.
+=> This program reads up to 30 characters from a file into a character array and prints them to the console.
 
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -218,7 +218,7 @@ public class Main{
 
 
 
-=>Program reads a file character by character using FileReader and prints the contents to the console.
+=> This program reads a file character by character using FileReader and prints the contents to the console.
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -245,7 +245,7 @@ public class Main{
 
 
 
-=>Program reads a text file line by line and prints each line on the console.
+=>This program reads a text file line by line and prints each line on the console.
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -272,7 +272,7 @@ public class Main{
 
 
 
-=>Program reads a text file line by line and counts the total number of lines in the file.
+=> This program reads a text file line by line and counts the total number of lines in the file.
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -301,7 +301,7 @@ public class Main{
 
 
 
-=>Program reads a text file line by line and calculates the total number of characters in the file.
+=> This program reads a text file line by line and calculates the total number of characters in the file.
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -331,7 +331,7 @@ public class Main{
 
 
 
-=> Program reads names and phone numbers from two separate files and combines them into a single phonebook.txt file in name : number format.
+=> This program reads names and phone numbers from two separate files and combines them into a single phonebook.txt file in name : number format.
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -371,7 +371,26 @@ public class Main{
 
 
 
-
+=>This program writes different types of data (double, boolean, integer, and string) into a text file using PrintWriter with exception handling
+import java.io.PrintWriter;
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        PrintWriter f = null;
+        try{
+            f = new PrintWriter("D:\\\\user\\\\myfiles\\\\data.txt");
+            f.println(3.13);
+            f.println(true);
+            f.println(12);
+            f.println("Hello");
+            f.flush();
+        }
+        catch (Exception e) {
+        e.printStackTrace();
+       }
+    }
+}
 
 
 
