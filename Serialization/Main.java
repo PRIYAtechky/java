@@ -40,7 +40,7 @@ class Customer implements Serializable {
 public class File {
     public static void main(String[] args) {
         Customer c = new Customer("Priya", 123, 100.37f);
-        String path = "D:\\demo\\demo.txt";
+        String path = "D:\\user\\myfiles\\data.txt";
         try {
             FileOutputStream f = new FileOutputStream(path);
             ObjectOutputStream o = new ObjectOutputStream(f);
@@ -89,7 +89,7 @@ class Customer implements java.io.Serializable {
 }
 public class File {
     public static void main(String[] args) {
-        String path = "D:\\demo\\demo.txt";
+        String path = "D:\\user\\myfiles\\data.txt";
         try {
             FileInputStream f = new FileInputStream(path);
             ObjectInputStream o = new ObjectInputStream(f);
