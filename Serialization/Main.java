@@ -2,6 +2,8 @@
 
 Serialization – The mechanism of converting an object into a byte stream is called Serialization.
 Deserialization – The mechanism of converting a byte stream back into an object is called Deserialization.
+serialVersionUID - serialVersionUID is a unique version ID used to ensure compatibility between a serialized object and its class during deserialization.
+POJO class - A POJO class is a simple Java class containing private fields, constructors, getters, and setters. [ Example: Customer class with name, id, balance, constructor, getters, and setters.]
 
 
 => This program serializes a Customer object into a byte stream and stores it in a file using ObjectOutputStream.
