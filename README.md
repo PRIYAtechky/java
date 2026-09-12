@@ -16,6 +16,7 @@ The repository covers **core Java concepts** along with **simple Java projects**
 | 2 | Increment and Decrement |
 | 3 | Pattern Programming |
 | 4 | File Handling |
+| 5 | Serialization |
   
 ##  Installation
 
