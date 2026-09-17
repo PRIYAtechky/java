@@ -1,5 +1,5 @@
 /*
-Arrays - An array is used to store multiple values of the same data type in a single variable.
+Array - An array is used to store multiple values of the same data type in a single variable.
 
 
 -> Find the length of an array
