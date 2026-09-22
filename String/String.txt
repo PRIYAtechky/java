@@ -1,0 +1,27 @@
+String
+* String is a sequence of characters used to store text.
+* String is a class in Java (java.lang.String).
+* String is immutable — once a String object is created, its value cannot be changed.
+* String is a reference type — a String variable stores a reference to a String object.
+
+StringBuffer - StringBuffer is a mutable sequence of characters used to modify text. It is synchronized and thread-safe.
+
+StringBuilder - StringBuilder is a mutable sequence of characters used to modify text. It is not synchronized and is faster than StringBuffer.
+
+
+
+Java String Functions
+
+length()       - Finds number of characters
+charAt()       - Gets a character
+toUpperCase()  - Converts to uppercase
+toLowerCase()  - Converts to lowercase
+equals()       - Compares two Strings
+contains()     - Checks whether text exists
+startsWith()   - Checks starting text
+endsWith()     - Checks ending text
+trim()         - Removes starting/ending spaces
+replace()      - Replaces characters/text
+substring()    - Gets part of a String
+indexOf()      - Finds position
+isEmpty()      - Checks if String is empty
